@@ -80,16 +80,12 @@ Portfolio is my second project as a Micronaut. Its all about my skills as a Fron
 
 ### Key Features <a name="key-features"></a>
 
-> The key features added in this project.
-
 - HTML
 - Cascading Style Sheet
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Live Demo <a name="live-demo"></a>
-
-> The key features added in this project.
 
 Feature Coming Soon!
 

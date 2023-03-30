@@ -2,84 +2,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-a:link {
-  color: white;
+* {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-a:visited {
-  color: white;
-}
-
-a:hover {
-  color: white;
-}
-
-a:active {
-  color: white;
-}
-
-body {
-  background: #1c1a19;
-  background-image: url(/images/illustration.svg);
-  background-repeat: no-repeat;
-  background-position-x: 228px;
-  background-position-y: 314px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 120px 24px;
-  gap: 12px;
-  position: absolute;
-  width: 375px;
-  height: 590px;
-  left: 0;
+.container {
+  margin: 0 auto;
+  width: 85%;
 }
 
 header {
-  margin: 0;
   display: flex;
-  position: absolute;
-  justify-items: center;
-  width: 375px;
-  height: 92px;
-  left: 0;
-  top: 0;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+  align-items: center;
   background: #3c3a39;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.logo {
-  margin-top: 56px;
-  margin-left: 24px;
-  margin-bottom: 12px;
-  width: 70px;
-  height: 24px;
+header a {
   color: white;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  display: inline-flex;
 }
 
-.menu {
-  margin-left: 323px;
-  margin-top: -28px;
-  margin-bottom: 24px;
+.main-section {
+  position: absolute;
+  width: 100%;
+  background: #1c1a19;
+}
+
+main {
+  background-image: url(/images/illustration.svg);
+  background-repeat: no-repeat;
+  background-size: 156px;
+  background-position-x: 161px;
+  background-position-y: 250px;
+  height: 40rem;
+  position: relative;
 }
 
 .title {
-  width: 327px;
-  height: 124px;
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
-  line-height: 64px;
-  letter-spacing: 0.37px;
   color: #ff6b00;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  margin-top: 7rem;
 }
 
 .title2 {
@@ -89,33 +68,20 @@ header {
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  display: flex;
-  align-items: center;
 }
 
-p {
-  width: 327px;
-  height: 123px;
+.main-section p {
+  margin: 2rem 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #fff;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+  color: rgb(255, 255, 255);
 }
 
-.box {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  vertical-align: center;
-}
-
-.illustration {
-  margin-left: 228px;
-  width: 406.89px;
-  height: 312.03px;
+.main-section ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
 }
