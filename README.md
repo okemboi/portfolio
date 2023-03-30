@@ -36,6 +36,7 @@ REQUIRED SECTIONS:
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -86,6 +87,13 @@ Portfolio is my second project as a Micronaut. Its all about my skills as a Fron
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Live Demo <a name="live-demo"></a>
+
+> The key features added in this project.
+
+Feature Coming Soon!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
