@@ -80,7 +80,7 @@ header a {
 }
 
 .content h2 {
-  font-family: "Crete round" sans-serif;
+  font-family: "Crete round", sans-serif;
   font-weight: 400;
   font-size: 40px;
   color: #1c1a19;
@@ -111,7 +111,7 @@ header a {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   margin-bottom: 1rem;
 }
@@ -132,7 +132,7 @@ header a {
   background-color: #ff6b00;
   padding: 12px;
   color: white;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -157,9 +157,11 @@ header a {
   background-size: cover;
   margin-bottom: 3rem;
 }
+
 .card-content {
   margin-left: 1.2rem;
 }
+
 .card h2 {
   font-family: "Crete Round", sans-serif;
   font-size: 36px;
