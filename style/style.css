@@ -51,6 +51,8 @@ header a {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
+  overflow-y: hidden;
+  height: 100%;
 }
 
 .main-section h2 {
@@ -91,11 +93,14 @@ header a {
 
 .portfolio-section {
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
 }
 
 .content {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   font-family: "Inter", sans-serif;
   height: 50rem;
@@ -179,6 +184,13 @@ header a {
   width: 100%;
 }
 
+.my-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .card {
   display: grid;
   grid-template-columns: 1fr;
@@ -246,12 +258,14 @@ header a {
 }
 
 .about-section {
-  height: 50rem;
   background-image: url(/images/Frame.png);
   background-size: 45%;
   background-repeat: no-repeat;
   background-color: #1c1a19;
   background-position: bottom right;
+  overflow-y: hidden;
+  height: 38rem;
+  margin-bottom: 0;
 }
 
 .about-me {
@@ -261,6 +275,7 @@ header a {
   justify-content: flex-start;
   align-items: left;
   gap: 1rem;
+  margin-bottom: 0;
 }
 
 .about-me h2 {
@@ -287,21 +302,23 @@ header a {
   align-self: flex-start;
 }
 
-.about-section hr {
+.my-stack hr {
   border-bottom: 2px solid rgb(255, 255, 255);
   width: 80%;
-  margin: 0 auto;
+  margin: -1.5px auto 4rem;
 }
 
 .skills {
   width: 100%;
   height: 50rem;
   background-color: #1c1a19;
+  overflow-y: hidden;
+  height: 100%;
 }
 
 .my-stack {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   background-color: #1c1a19;
   color: white;
