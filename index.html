@@ -198,22 +198,23 @@
     </section>
 
     <section class="contact-form">
-        <p>
-            I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-        </p>
-        <form action="https://formspree.io/f/mvonwygw" method="POST">
-            <input type="text" name="full_name" maxlength="30" placeholder="Full name" required/>
-            <input type="email" name="email" placeholder="Email" required/>
-            <textarea name="textarea" maxlength="500" placeholder="Write me something..." required></textarea>
-            <input type="button" title="Get in touch" placeholder="Get in touch" />
-        </form>
-        <ul class="social_link">
-            <li></li>
-        </ul>
-    </section>
-<footer>
-        <hr class="hr-footer">
-        <div class="social-media-footer">
+       <section>
+        <div class="contact-form">
+
+            <p class="footer-text">
+                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+            </p>
+
+            <form class="form-content" action="https://formspree.io/f/mvonwygw" method="POST">
+                <input type="text" name="full_name" maxlength="30" placeholder="Full name" required /><br>
+                <input type="email" name="email" placeholder="Email" required /><br>
+                <textarea name="textarea" maxlength="500" placeholder="Write me something..." required></textarea><br>
+                <button class="submit-button" type="submit" value="submit">Get in touch </button><br>
+            </form>
+
+        </div>
+        <div>
+            <hr class="hr-footer">
             <ul class="social-icons">
                 <li>
                     <a href="https://github.com/okemboi/"><img src="/images/dark github.svg" alt="GitHub" /></a>
@@ -232,11 +233,13 @@
                 </li>
             </ul>
         </div>
-    </footer>
+        </footer>
 
-    <div class="shape">
-        <img src="/images/Shape.png" alt="">
-    </div>
+        <div class="shape">
+            <img src="/images/Shape.png" alt="">
+        </div>
+        </div>
+    </section>
 </body>
 
 </html>
