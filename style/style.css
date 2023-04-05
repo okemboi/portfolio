@@ -366,3 +366,22 @@ header a {
 .last-item {
   margin-bottom: 5rem;
 }
+
+.hr-footer {
+  border-bottom: 3px solid #dfe1e6;
+  width: 80%;
+  margin: -1.5px auto 4rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.shape {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
