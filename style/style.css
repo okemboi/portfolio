@@ -7,7 +7,6 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 .container {
@@ -267,7 +266,6 @@ header a {
   text-align: center;
   color: white;
   background: #ff6b00;
-  margin-top: 1rem;
 }
 
 .about-section {
@@ -588,11 +586,8 @@ header a {
 
   .card-content {
     margin-left: 0;
-    height: 100%;
-  }
-
-  .card .card-content {
-    padding: 0 1rem;
+    height: 435px;
+    padding: 0 13px;
   }
 
   .card h2 {
@@ -656,7 +651,7 @@ header a {
 
   .first-image {
     display: block;
-    width: 100%;
+    width: 380px;
     padding: 0;
   }
 
