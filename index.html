@@ -2,174 +2,221 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="/style/style.css">
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/style/style.css" />
     <title>Kemboi Portfolio</title>
 </head>
 
 <body>
     <header>
         <a href="#">Kemboi</a>
-
-        <nav class="menu">
-            <img src="/images/union.svg">
+        <nav>
+            <img class="header-icon" src="/images/union.svg" />
+            <ul>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <img class="header-mail" src="/images/mail.svg" alt="Email" />
+            </ul>
         </nav>
     </header>
+
     <section class="main-section">
-        <main class="container">
-            <h1>Hey There.
-                I’m Kemboi.</h1>
+        <main class="wrapper container">
+            <div class="main-content">
+                <div class="text">
+                    <h1>Hey There. <br />I’m Kemboi.</h1>
+                    <h2>I'm a Software Developer</h2>
+                    <p>
+                        I can help you build a product , feature or website Look through
+                        some of my work and experience! If you like what you see and have
+                        a project you need coded, don’t hesitate to contact me.
+                    </p>
+                </div>
 
-            <h2>I'm a Software Developer</h2>
-
-            <p>I can help you build a product , feature or website Look through some of my work and experience!
-                If you like what you see and have a project you need coded,
-                don’t hesitate to contact me.</p>
-            <ul class="social-media">
-                <li><a href="https://github.com/okemboi"><img src="/images/github.svg" alt="Github"></a>
-                </li>
-
-                <li>
-                    <a href="https://www.linkedin.com/in/kiptanuikemboi/"><img src="/images/linkedin.svg"
-                            alt="Linkedin"></a>
-                </li>
-
-                <li>
-                    <a href="#"><img src="/images/two.svg" alt="Two"></a>
-                </li>
-
-                <li>
-                    <a href="https://twitter.com/ok_kemboi"><img src="/images/twitter.svg" alt="Twitter">
-                </li>
-
-                <li>
-                    <a href="#"><img src="/images/M.svg" alt="Medium"></a>
-                </li>
-            </ul>
-            <div class="back"></div>
-
+                <ul class="social-media">
+                    <li>
+                        <a href="https://github.com/okemboi"><img src="/images/github.svg" alt="Github" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/kiptanuikemboi/"><img src="/images/linkedin.svg"
+                                alt="Linkedin" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/images/two.svg" alt="Two" /></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/ok_kemboi"><img src="/images/twitter.svg" alt="Twitter" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/images/M.svg" alt="Medium" /></a>
+                    </li>
+                </ul>
+            </div>
+            <img src="/images/Illustration-header.svg" alt="" />
         </main>
     </section>
 
     <section class="portfolio-section">
         <div class="content container">
-            <h2>My Recent Works</h2>
-            <hr>
-            <img src="/images/ImgPlaceholder.png" alt="">
-            <h3>Multi-Post Stories</h3>
-            <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                industry's standard
-                dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-            </p>
-            <ul>
-                <li>CSS</li>
-                <li>HTML</li>
-                <li>Bootstrap</li>
-                <li>Ruby</li>
-            </ul>
-            <button class="btn">See Project</button>
-        </div>
-
-
-        <div class="my-cards container">
-            <div class="card">
-                <div class="card-content">
-                    <h2>Profesional Art Printing Data</h2>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
-                        industry's standard.</p>
+            <div class="content-title">
+                <h2>My Recent Works</h2>
+                <hr />
+            </div>
+            <div class="portfolio-image works">
+                <img src="/images/ImgPlaceholder.png" alt="" />
+                <div class="multi-post">
+                    <h3>Multi-Post Stories</h3>
+                    <p>
+                        A daily selection of privately personalized reads; no accounts or
+                        sign-ups required. has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a standard
+                        dummy text.
+                    </p>
                     <ul>
+                        <li>CSS</li>
                         <li>HTML</li>
                         <li>Bootstrap</li>
                         <li>Ruby</li>
                     </ul>
+                    <button class="btn">See Project</button>
                 </div>
-                <button>See project</button>
             </div>
 
-            <div class="card">
-                <div class="card-content">
-                    <h2>Profesional Art Printing Data</h2>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
-                        industry's standard.</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                </div>
-                <button class="btn">See project</button>
-            </div>
+            <div class="my-cards">
+                <div class="card">
+                    <div class="card-content hide">
+                        <img class="first-image" src="/images/Img Placeholder.png" alt="" />
 
-            <div class="card">
-                <div class="card-content">
-                    <h2>Profesional Art Printing Data</h2>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
-                        industry's standard.</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
+                        <button class="btn-show">See project</button>
+                    </div>
                 </div>
-                <button class="btn">See project</button>
-            </div>
 
-            <div class="card">
-                <div class="card-content">
-                    <h2>Profesional Art Printing Data</h2>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
-                        industry's standard.</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
+                <div class="card bg-2">
+                    <div class="card-content">
+                        <h2>Professional Art Printing Data</h2>
+                        <p>
+                            A daily selection of privately personalized reads; no accounts
+                            or sign-ups required. Has been the industry's standard.
+                        </p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button class="btn">See project</button>
                 </div>
-                <button class="btn">See project</button>
+
+                <div class="card bg-3">
+                    <div class="card-content">
+                        <h2>Professional Art Printing Data</h2>
+                        <p>
+                            A daily selection of privately personalized reads; no accounts
+                            or sign-ups required. Has been the industry's standard.
+                        </p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button class="btn">See project</button>
+                </div>
+
+                <div class="card bg-4">
+                    <div class="card-content">
+                        <h2>Professional Art Printing Data</h2>
+                        <p>
+                            A daily selection of privately personalized reads; no accounts
+                            or sign-ups required. Has been the industry's standard.
+                        </p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button class="btn">See project</button>
+                </div>
+
+                <div class="card bg-2">
+                    <div class="card-content">
+                        <h2>Professional Art Printing Data</h2>
+                        <p>
+                            A daily selection of privately personalized reads; no accounts
+                            or sign-ups required. Has been the industry's standard.
+                        </p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button class="btn">See project</button>
+                </div>
+
+                <div class="card bg-3">
+                    <div class="card-content">
+                        <h2>Professional Art Printing Data</h2>
+                        <p>
+                            A daily selection of privately personalized reads; no accounts
+                            or sign-ups required. Has been the industry's standard.
+                        </p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button class="btn">See project</button>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="about-section">
         <div class="about-me container">
-            <h2>About Me</h2>
-            <p>
-                Hello I’m a software developer! I can help you build a product , feature or website Look through some of
-                my work and
-                experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-            </p>
-            <button class="btn btn-about">Get my resume</button>
+            <div class="about-me-text">
+                <h2>About Me</h2>
+                <p>
+                    Hello I’m a software developer! I can help you build a product ,
+                    feature or website Look through some of my work and experience! If
+                    you like what you see and have a project you need coded, don’t
+                    hesitate to contact me.
+                </p>
+                <button class="btn btn-about">Get my resume</button>
+            </div>
+            <img src="images/Frame3.png" alt="" />
         </div>
 
-
+        <hr class="line" />
     </section>
 
     <section class="skills">
         <div class="my-stack container">
-            <hr>
+            <hr />
             <div class="title">
-                <img src="/images/Rectangle 55.png" alt="">
-                <h3>Language</h3>
+                <img src="/images/Rectangle 55.png" alt="" />
+                <h3 class="frameworks">Language</h3>
             </div>
             <ul>
                 <li>JavaScript</li>
                 <li>Ruby</li>
                 <li>HTML</li>
                 <li>CSS</li>
-
             </ul>
         </div>
-
         <div class="my-stack container">
             <div class="title">
-                <img src="/images/Rectangle 56.png" alt="">
+                <img src="/images/Rectangle 56.png" alt="" />
                 <h3 class="frameworks">Frameworks</h3>
             </div>
             <ul>
@@ -177,13 +224,11 @@
                 <li>Ruby on Rails</li>
                 <li>RSpec</li>
                 <li>Capybara</li>
-
             </ul>
         </div>
-
         <div class="my-stack container last-item">
-            <div class="title">
-                <img src="/images/Rectangle 57.png" alt="">
+            <div class="title skills-text">
+                <img src="/images/Rectangle 57.png" alt="" />
                 <h3 class="frameworks">Skills</h3>
             </div>
             <ul>
@@ -192,54 +237,56 @@
                 <li>CLI</li>
                 <li>API Design</li>
                 <li>Web Development</li>
-
             </ul>
         </div>
     </section>
 
     <section class="contact-form">
-       <section>
-        <div class="contact-form">
+        <p class="footer-text">
+            I'm always interested in hearing about new projects, so if you'd like to
+            chat please get in touch.
+        </p>
+        <form class="form-content" action="https://formspree.io/f/mvonwygw" method="POST">
+            <input type="text" name="full_name" maxlength="30" placeholder="Full name" required />
 
-            <p class="footer-text">
-                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-            </p>
+            <div class="first-last">
+                <input type="text" name="first" maxlength="30" placeholder="First Name" required />
 
-            <form class="form-content" action="https://formspree.io/f/mvonwygw" method="POST">
-                <input type="text" name="full_name" maxlength="30" placeholder="Full name" required /><br>
-                <input type="email" name="email" placeholder="Email" required /><br>
-                <textarea name="textarea" maxlength="500" placeholder="Write me something..." required></textarea><br>
-                <button class="submit-button" type="submit" value="submit">Get in touch </button><br>
-            </form>
+                <input type="text" name="last" maxlength="30" placeholder="Last name" required />
+            </div>
+            <input type="email" name="email" placeholder="Email" required /><br />
 
-        </div>
-        <div>
-            <hr class="hr-footer">
-            <ul class="social-icons">
-                <li>
-                    <a href="https://github.com/okemboi/"><img src="/images/dark github.svg" alt="GitHub" /></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/kiptanuikemboi/"><img src="/images/dark linkedin.svg"
-                            alt="Linkedin" /></a>
-                </li>
-                <li>
-                    <a href="#"><img src="/images/dark angelist.svg" alt="Angelist" /></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/ok_kemboi"><img src="/images/dark twitter.svg" alt="Twitter" /></a>
-                </li>
-                <li>
-                    <a href="#"><img src="/images/dark medium.svg" alt="Mediumn" /></a>
-                </li>
-            </ul>
-        </div>
-        </footer>
-
-        <div class="shape">
-            <img src="/images/Shape.png" alt="">
-        </div>
-        </div>
+            <textarea name="textarea" maxlength="500" placeholder="Write me something..." required></textarea><br />
+            <button class="submit-button" type="submit" value="submit">
+                Get in touch</button><br />
+        </form>
     </section>
+
+    <footer>
+        <hr class="hr-footer" />
+
+        <ul class="social-icons">
+            <li>
+                <a href="https://github.com/okemboi/"><img src="/images/dark github.svg" alt="GitHub" /></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/kiptanuikemboi/"><img src="/images/dark linkedin.svg"
+                        alt="Linkedin" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="/images/dark angelist.svg" alt="angelist" /></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/ok_kemboi"><img src="/images/dark twitter.svg" alt="Twitter" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="/images/dark medium.svg" alt="Medium" /></a>
+            </li>
+        </ul>
+        <div class="shape">
+            <img src="/images/Shape.png" alt="" />
+        </div>
+    </footer>
 </body>
 
 </html>
