@@ -541,6 +541,10 @@ header a {
     margin-left: 5rem;
   }
 
+  .works img {
+    height: 95%;
+  }
+
   .main-section .social-media img {
     width: 1rem;
   }
@@ -568,10 +572,6 @@ header a {
     gap: 1rem;
     align-items: center;
     margin-bottom: 2rem;
-  }
-
-  .works img {
-    height: 95%;
   }
 
   .my-cards {
@@ -631,7 +631,7 @@ header a {
   }
 
   .bg-2 {
-    background: url(/images/Img\ Placeholder1.png);
+    background: url(/images/Img\ Placeholder4.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -639,7 +639,7 @@ header a {
   }
 
   .bg-3 {
-    background: url(/images/Img\ Placeholder2.png);
+    background: url(/images/Img\ Placeholder3.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -647,7 +647,7 @@ header a {
   }
 
   .bg-4 {
-    background: url(/images/Img\ Placeholder5.png);
+    background: url(/images/Img\ Placeholder.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
