@@ -21,7 +21,7 @@ REQUIRED SECTIONS:
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="/images/logo.png" alt="logo" width="150"  height="auto" />
+  <img src="logo.png" alt="logo" width="150"  height="auto" />
   <br/>
 
   <h3><b>Kemboi Portfolio README Doc</b></h3>
@@ -87,7 +87,7 @@ Portfolio is my second project as a Micronaut. Its all about my skills as a Fron
 
 ### Live Demo <a name="live-demo"></a>
 
-This is the live [demo link] (https://okemboi.github.io/portfolio/)
+This is the live demo link (https://okemboi.github.io/portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
