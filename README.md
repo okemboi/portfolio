@@ -87,7 +87,7 @@ Portfolio is my second project as a Micronaut. Its all about my skills as a Fron
 
 ### Live Demo <a name="live-demo"></a>
 
-Feature Coming Soon!
+This is the live [demo link] (https://okemboi.github.io/portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
