@@ -618,7 +618,7 @@ header a {
   }
 
   .bg-1 {
-    background: url(Img Placeholder.png);
+    background: url(/ImgPlaceholder.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -626,7 +626,7 @@ header a {
   }
 
   .bg-2 {
-    background: url(Img Placeholder4.png);
+    background: url(/ImgPlaceholder4.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -634,7 +634,7 @@ header a {
   }
 
   .bg-3 {
-    background: url(Img Placeholder3.png);
+    background: url(/ImgPlaceholder3.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -642,7 +642,7 @@ header a {
   }
 
   .bg-4 {
-    background: url(Img Placeholder90.png);
+    background: url(/ImgPlaceholder90.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
