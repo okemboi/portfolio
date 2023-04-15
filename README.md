@@ -54,7 +54,7 @@ REQUIRED SECTIONS:
 
 # 📖 Portfolio <a name="about-project"></a>
 
-Portfolio is my second project as a Micronaut. Its all about my skills as a Front End Developer.
+Portfolio is my second project as a Micronaut. Its all about my skills as a Front End Developer. You can also view a copy of this video through this link https://www.loom.com/share/dd136294cedf45adb92182aca3271228
 
 ## 🛠 Built With <a name="built-with"></a>
 
