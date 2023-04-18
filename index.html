@@ -16,22 +16,24 @@
 
 <body>
     <header>
-        <a href="#">Kemboi</a>
-        <nav class="navbar">
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-
-            <ul class="navmenu">
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Contact">Contact</a></li>
-                <img class="header-mail" src="mail.svg" alt="Email" />
-            </ul>
+        <a href="#" class="logo">Kemboi</a>
+  <nav id="nav-hamburger">
+  <a href="#" id="hamburger"><img class="hamburger" src="union.svg" />
+    <div i d="mobilemenu" class="mobile-menu-inactive">
+    <div class="disabled-button"><a href="#"><img src="union.svg"></a></div>
+    <ul class="mobile-menu-list">
+    <li><a id="button1" class="mobile-menu-links" href="#main-content">Portfolio</a></li>
+    <li><a id="button2" class="mobile-menu-links" href="#About">About</a></li>
+    <li><a id="button3" class="mobile-menu-links" href="#Contact">Contact</a></li>
+      </ul>
+        </div>        
         </nav>
-    </header>
+        <nav id="desktop-nav">
+        <a href="#main-content" class="desktop-nav-link">Portfolio</a>
+        <a href="#About" class="desktop-nav-link">About</a>
+        <a href="#Contact" class="desktop-nav-link">Contact</a>
+          </nav>
+        </header>
 
     <section class="main-section">
         <main class="wrapper container">
@@ -188,7 +190,7 @@
         </div>
     </section>
 
-    <section class="about-section" id="About"">
+    <section class="about-section" id="About">
         <div class=" about-me container">
         <div class="about-me-text">
             <h2>About Me</h2>
@@ -292,6 +294,8 @@
             <img src="Shape.png" alt="" />
         </div>
     </footer>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
