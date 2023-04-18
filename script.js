@@ -1,10 +1,11 @@
 const handleClick = () => {
   const mobileNavMenu = document.querySelector('#mobilemenu');
   const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
-  hamburger.classList.toggle('mobile-menu-inactive');
-  hamburger.classList.toggle('mobile-menu');
-  document.body.classList.toggle('menu-active');
-  mobileMenuOverlay.classList.toggle('mobile-menu-overlay-active');
+  hamburger.classList.toggle('.mobile-menu-inactive');
+  hamburger.classList.toggle('.mobile-menu');
+  document.body.classList.toggle('.menu-active');
+  console.log(toggle);
+  mobileMenuOverlay.classList.toggle('.mobile-menu-overlay-active');
 };
 
 document.addEventListener('DOMContentLoaded', () => {

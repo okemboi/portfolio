@@ -21,7 +21,7 @@ REQUIRED SECTIONS:
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="logo.png" alt="logo" width="150"  height="auto" />
+  <img src="./images/logo.png" alt="logo" width="150"  height="auto" />
   <br/>
 
   <h3><b>Kemboi Portfolio README Doc</b></h3>
@@ -54,7 +54,7 @@ REQUIRED SECTIONS:
 
 # 📖 Portfolio <a name="about-project"></a>
 
-Portfolio is my second project as a Micronaut. Its all about my skills as a Front End Developer. You can also view a copy of this video through this link https://www.loom.com/share/dd136294cedf45adb92182aca3271228
+Portfolio is my second project as a Micronaut. Its all about my skills as a Front End Developer. You can also view a copy of this video through this <a href="https://www.loom.com/share/dd136294cedf45adb92182aca3271228">link </a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
