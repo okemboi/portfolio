@@ -44,6 +44,21 @@ header a {
   animation-fill-mode: forwards;
 }
 
+.hamburger {
+  display: block;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translate(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translate(-8px) rotate(-45deg);
+}
 .main-section {
   width: 100%;
   background: #1c1a19;
