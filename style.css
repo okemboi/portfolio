@@ -411,6 +411,7 @@ header a {
   font-family: "Inter", sans-serif;
   color: #172b4d;
   font-weight: 700;
+  text-align: center;
 }
 
 .form-content {
