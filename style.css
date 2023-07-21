@@ -337,6 +337,7 @@ header a {
   color: white;
   margin-top: 4rem;
   text-align: left;
+  text-align: center;
 }
 
 .title {
@@ -357,19 +358,17 @@ header a {
 }
 
 .my-stack ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
+  text-align: center;
 }
 
 .my-stack ul li {
+  margin-top: 1.5rem;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   align-self: flex-start;
+  text-align: center;
 }
 
 .frameworks {
@@ -723,6 +722,9 @@ header a {
 
   .my-stack ul {
     gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
   }
 
   .my-stack ul li {
