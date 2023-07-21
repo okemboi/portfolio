@@ -331,7 +331,6 @@ header a {
   overflow-y: hidden;
   height: 100%;
   align-items: flex-start;
-  /* gap: 15rem; */
 }
 
 .my-stack {
