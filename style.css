@@ -326,21 +326,24 @@ header a {
 }
 
 .skills {
-  width: 100%;
+  width: 1, 157.46px;
   background-color: #1c1a19;
   overflow-y: hidden;
   height: 100%;
+  align-items: flex-start;
+  /* gap: 15rem; */
 }
 
 .my-stack {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   background-color: #1c1a19;
   color: white;
   margin-top: 4rem;
   text-align: left;
   text-align: center;
+  justify-content: left;
 }
 
 .title {
@@ -371,7 +374,7 @@ header a {
   font-weight: 400;
   font-size: 22px;
   align-self: flex-start;
-  text-align: center;
+  text-align: left;
 }
 
 .frameworks {
@@ -379,6 +382,7 @@ header a {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
+  justify-content: left;
 }
 
 .last-item {
@@ -719,6 +723,7 @@ header a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 7rem;
+    padding-left: 30px;
   }
 
   .skills h3 {
@@ -754,10 +759,6 @@ header a {
 
   .last-item {
     margin-bottom: 0;
-  }
-
-  .skills-text {
-    margin-left: -4rem;
   }
 
   .line {
