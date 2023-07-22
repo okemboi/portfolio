@@ -153,9 +153,12 @@ header a {
   border: 0.5px solid #8993a4;
 }
 
+.recent {
+  width: 100vw;
+}
+
 .works img {
-  width: 90%;
-  padding-left: 1rem;
+  width: 100%;
   height: auto;
   transition: all 0.5s ease-in-out;
 }
@@ -212,6 +215,10 @@ header a {
 
 .card-content {
   margin-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
 }
 
 .first-image {
@@ -319,20 +326,22 @@ header a {
 }
 
 .skills {
-  width: 100%;
+  width: 1, 157.46px;
   background-color: #1c1a19;
   overflow-y: hidden;
   height: 100%;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .my-stack {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #1c1a19;
   color: white;
   margin-top: 4rem;
-  text-align: left;
+  text-align: center;
+  justify-content: center;
 }
 
 .title {
@@ -353,19 +362,17 @@ header a {
 }
 
 .my-stack ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
+  text-align: center;
 }
 
 .my-stack ul li {
+  margin-top: 1.5rem;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   align-self: flex-start;
+  text-align: center;
 }
 
 .frameworks {
@@ -373,6 +380,7 @@ header a {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
+  justify-content: left;
 }
 
 .last-item {
@@ -398,9 +406,13 @@ header a {
   margin-bottom: 50px;
 }
 
+.btn-show {
+  display: none;
+}
+
 .contact-form {
   margin: 0 auto;
-  width: 70%;
+  width: 90%;
   padding: 1.2rem;
   padding-top: 7rem;
 }
@@ -488,6 +500,10 @@ header a {
     display: none;
   }
 
+  .btn-show {
+    display: block;
+  }
+
   header nav ul {
     display: flex;
     justify-content: space-between;
@@ -541,7 +557,7 @@ header a {
   }
 
   .works img {
-    height: 95%;
+    height: 90%;
   }
 
   .main-section .social-media img {
@@ -705,6 +721,7 @@ header a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 7rem;
+    padding-left: 30px;
   }
 
   .skills h3 {
@@ -715,10 +732,14 @@ header a {
   .my-stack {
     margin-top: 0;
     padding-bottom: 6rem;
+    align-items: flex-start;
   }
 
   .my-stack ul {
     gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
   }
 
   .my-stack ul li {
@@ -737,10 +758,6 @@ header a {
 
   .last-item {
     margin-bottom: 0;
-  }
-
-  .skills-text {
-    margin-left: -4rem;
   }
 
   .line {
