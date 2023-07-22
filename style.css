@@ -331,18 +331,17 @@ header a {
   overflow-y: hidden;
   height: 100%;
   align-items: flex-start;
+  justify-content: center;
 }
 
 .my-stack {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   background-color: #1c1a19;
   color: white;
   margin-top: 4rem;
-  text-align: left;
   text-align: center;
-  justify-content: left;
+  justify-content: center;
 }
 
 .title {
@@ -373,7 +372,7 @@ header a {
   font-weight: 400;
   font-size: 22px;
   align-self: flex-start;
-  text-align: left;
+  text-align: center;
 }
 
 .frameworks {
@@ -733,6 +732,7 @@ header a {
   .my-stack {
     margin-top: 0;
     padding-bottom: 6rem;
+    align-items: flex-start;
   }
 
   .my-stack ul {
