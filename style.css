@@ -47,7 +47,7 @@ header a {
 .main-section {
   width: 100%;
   background: #1c1a19;
-  background-image: url(illustration-header-mobile-1.png);
+  background-image: url(images/illustration-header-mobile-1.png);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-color: #1c1a19;
@@ -207,7 +207,7 @@ header a {
   grid-template-columns: 1fr;
   align-items: center;
   width: 100%;
-  background: url("ImgPlaceholder2.png");
+  background: url("images/ImgPlaceholder2.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 3rem;
@@ -276,7 +276,7 @@ header a {
 }
 
 .about-section {
-  background-image: url(Frame.png);
+  background-image: url(images/Frame.png);
   background-size: 45%;
   background-repeat: no-repeat;
   background-color: #1c1a19;
@@ -635,7 +635,7 @@ header a {
   }
 
   .bg-1 {
-    background: url(ImgPlaceholder.png);
+    background: url(images/ImgPlaceholder.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -643,7 +643,7 @@ header a {
   }
 
   .bg-2 {
-    background: url(ImgPlaceholder4.png);
+    background: url(images/ImgPlaceholder4.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -651,7 +651,7 @@ header a {
   }
 
   .bg-3 {
-    background: url(ImgPlaceholder3.png);
+    background: url(images/ImgPlaceholder3.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -659,7 +659,7 @@ header a {
   }
 
   .bg-4 {
-    background: url(ImgPlaceholder90.png);
+    background: url(images/ImgPlaceholder90.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
