@@ -44,6 +44,45 @@ header a {
   animation-fill-mode: forwards;
 }
 
+.navMenu {
+  background-color: #1c1a19;
+  color: #dfe1e6;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 24px;
+  display: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.menuBtn {
+  background-color: #1c1a19;
+  height: 40px;
+  width: 40px;
+  margin: 48px;
+  position: relative;
+  margin-left: 90%;
+}
+
+.navMenu hr {
+  border-bottom: 2px solid #6f6c6b;
+  margin: 1.2rem auto 2rem;
+  width: 100%;
+}
+
+a:link {
+  color: #dfe1e6;
+}
+
+a:visited {
+  color: #dfe1e6;
+}
+
 .main-section {
   width: 100%;
   background: #1c1a19;
