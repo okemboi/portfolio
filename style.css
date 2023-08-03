@@ -52,19 +52,34 @@ header a {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 20px;
+  padding: 24px;
   display: none;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 32px;
 }
 
-.navMenu:link {
+.menuBtn {
+  background-color: #1c1a19;
+  height: 40px;
+  width: 40px;
+  margin: 48px;
+  position: relative;
+  margin-left: 90%;
+}
+
+.navMenu hr {
+  border-bottom: 2px solid #6f6c6b;
+  margin: 1.2rem auto 2rem;
+  width: 100%;
+}
+
+a:link {
   color: #dfe1e6;
 }
 
-.navMenu:visited {
+a:visited {
   color: #dfe1e6;
 }
 
