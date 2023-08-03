@@ -44,6 +44,30 @@ header a {
   animation-fill-mode: forwards;
 }
 
+.navMenu {
+  background-color: #1c1a19;
+  color: #dfe1e6;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.navMenu:link {
+  color: #dfe1e6;
+}
+
+.navMenu:visited {
+  color: #dfe1e6;
+}
+
 .main-section {
   width: 100%;
   background: #1c1a19;
