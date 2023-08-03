@@ -1,13 +1,10 @@
-# portfolio
-
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="logo.png" alt="logo" width="150"  height="auto" />
+  <!-- <img src="logo.png" alt="logo" width="150"  height="auto" /> -->
   <br/>
 
-  <h3><b>Kemboi Portfolio README Doc</b></h3>
+  <h1><b>Kemboi Portfolio</b></h1>
 
 </div>
 
@@ -43,19 +40,13 @@ Portfolio is my second project as a Micronaut. Its all about my skills as a Fron
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML and CSS Languages
-
 <details>
-  <summary>Client</summary>
+  <summary>Frontend Technologies</summary>
   <ul>
     <li><a href="https://html.com/">HTML</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Styling</summary>
-  <ul>
     <li><a href="https://css-tricks.com/">CSS</a></li>
+    <li>JavaScript</li>
+
   </ul>
 </details>
 
@@ -63,8 +54,9 @@ Portfolio is my second project as a Micronaut. Its all about my skills as a Fron
 
 ### Key Features <a name="key-features"></a>
 
-- HTML
-- Cascading Style Sheet
+- Projet Section showcases my awesome project.
+- Using the functional contact from any one can contact me.
+- It is a responsive website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,16 +69,14 @@ This is the live demo link (https://okemboi.github.io/portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> To get started as a deveoper, below is instructions on how to make use of this project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-1. Latest version of your browser
-2. Code Editor
+1. Latest version of any browser(Firefox)
+2. Code Editor (VS Code)
 
 ### Setup
 
@@ -120,8 +110,6 @@ Open index.html using liver server extension.
 
 ## 👥 Authors <a name="authors"></a>
 
-> This is a solo project, successfully submitted by myself;
-
 👤 Kemboi Kiptanui
 
 - GitHub: [@githubhandle](https://github.com/okemboi)
@@ -133,12 +121,8 @@ Open index.html using liver server extension.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Features to be added in this project include.
-
-- JavasScript
-- Algorithims
-- Database
-- Ruby
+- Add beautifull animation.
+- Add database to dynamically showcases my latest project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,8 +155,6 @@ I would like to thank the Microverse team for making this program possible.
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
-
-> Frequently Asked Questions
 
 - Which browser works best for this project?
 
