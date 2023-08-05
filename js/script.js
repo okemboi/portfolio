@@ -18,23 +18,18 @@ portifolio.addEventListener('click', hideMenu);
 about.addEventListener('click', hideMenu);
 contact.addEventListener('click', hideMenu);
 
-const submitButton = document.getElementById("submit-button2");
+const submitButton = document.getElementById('submit-button2');
 
-submitButton.addEventListener("click", (event) => {
+submitButton.addEventListener('click', (event) => {
+  const emailInput = document.getElementById('email');
+  const email = emailInput.value;
 
-    const emailInput = document.getElementById("email");
-    const email = emailInput.value;
-
-    if (email !== email.toLowerCase()) {
-
-        const errorMessage = document.getElementById("email-error");
-        errorMessage.style.display = "block";
-        event.preventDefault();
-    } else {
-
-        const errorMessage = document.getElementById("email-error");
-        errorMessage.style.display = "none";
-    }
-}
-  )
-    ;
+  if (email !== email.toLowerCase()) {
+    const errorMessage = document.getElementById('email-error');
+    errorMessage.style.display = 'block';
+    event.preventDefault();
+  } else {
+    const errorMessage = document.getElementById('email-error');
+    errorMessage.style.display = 'none';
+  }
+});
